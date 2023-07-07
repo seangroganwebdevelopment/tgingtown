@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Coustard&family=Gentium+Book+Plus&family=Indie+Flower&family=Roboto&display=swap');
+
+
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: 1px solid lime !important; */
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+input,
+button,
+textarea {
+    font: inherit;
+}
+
+
+
+/* || VARIABLES */
+
+/* --- COLOUR PALETTE(s) |||  */
+
+:root {
+    /* BRONZE:  */
+    --COLOR-ONE: #967444;
+    /* SHADES AND VARIATIONS OF BRONZE */
+    --COLOR-TWO: #574327;
+    --COLOR-THREE: #e3af66;
+    --COLOR-FOUR: #A37E49;
+    --COLOR-FIVE: #7D6038;
+    /* COMPLEMENTARY COLORS TO BRONZE */
+    --COLOR-SIX: #4A361A;
+    --COLOR-SEVEN: #E3B87D;
+    --COLOR-EIGHT: #12354A;
+    --COLOR-NINE: #447796;
+
+    --COLOR-TEXT: #4e2020;
+    --COLOR-TEXT2: #fff;
+}
+
+.bisque-mode {
+    --COLOR-ONE: #f07575;
+    --COLOR-TWO: #ecc2c2;
+    --COLOR-THREE: #f5d5d5;
+    --COLOR-FOUR: #eca3a3;
+    --COLOR-FIVE: #f7b3b3;
+    --COLOR-SIX: #833434;
+    --COLOR-SEVEN: #333;
+
+    --COLOR-TEXT: #4e2020;
+    --COLOR-TEXT2: #fff;
+}
+
+.dark-mode {
+    --COLOR-ONE: #5a99e2;
+    --COLOR-TWO: #97cceb;
+    --COLOR-THREE: #a3e8f1;
+    --COLOR-FOUR: #a3cbec;
+    --COLOR-FIVE: #c5ebe2;
+    --COLOR-SIX: #7e7cec;
+    --COLOR-SEVEN: #333333;
+}
+
+.green-mode {
+    --COLOR-ONE: #80e25a;
+    --COLOR-TWO: #44865d;
+    --COLOR-THREE: #79b47e;
+    --COLOR-FOUR: #17e44b;
+    --COLOR-FIVE: #58975b;
+    --COLOR-SIX: #6ac57e;
+    --COLOR-SEVEN: #17a71e;
+}
+
+
+/* --- FONT PALETTE |||  */
+
+:root {
+    --FONT-ONE: Arial, sans-serif;
+    --FONT-TWO: 'Times New Roman', serif;
+}
+
+
+
+
+
+/* || VArIABLES */
+
+
+
+:root {
+
+    /* COLOUR PALETTE:  */
+    --COLOR-ONE: #f07575;
+    --COLOR-TWO: #ecc2c2;
+    --COLOR-THREE: #f5d5d5;
+    --COLOR-FOUR: #eca3a3;
+    --COLOR-FIVE: #f7b3b3;
+    --COLOR-SIX: #833434;
+    --COLOR-SEVEN: #333;
+
+
+    --COLOR-TEXT: #4e2020;
+    --COLOR-TEXT2: #fff;
+
+    .dark-mode {
+        --COLOR-ONE: #5a99e2;
+        --COLOR-TWO: #97cceb;
+        --COLOR-THREE: #a3e8f1;
+        --COLOR-FOUR: #a3cbec;
+        --COLOR-FIVE: #c5ebe2;
+        --COLOR-SIX: #7e7cec;
+        --COLOR-SEVEN: #333333;
+    }
+}
+
+
+
+/* || UTILITY CLASSES */
+
+
+/* ------------------------ */
