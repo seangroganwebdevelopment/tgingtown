@@ -99,6 +99,11 @@ textarea {
 /* --- NAVBAR ||| */
 
 
+.logo {
+    background-color: var(--COLOR-SEVEN);
+    text-align: center;
+}
+
 nav {
     background-color: var(--COLOR-FOUR);
     height: 3rem; 
@@ -109,8 +114,15 @@ nav {
     justify-content: space-around;
     align-items: center;
     height: 100%; 
+   
+}
+
+.navlinks ul {
+    text-decoration: none;
+    list-style-type: none;
 }
 
 nav a {
     text-decoration: none;
 }
+
