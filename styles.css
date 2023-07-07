@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Coustard&family=Gentium+Book+Plus&family=Indie+Flower&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 
 
@@ -84,47 +84,33 @@ textarea {
 /* --- FONT PALETTE |||  */
 
 :root {
-    --FONT-ONE: Arial, sans-serif;
+    --FONT-ONE: 'Roboto', sans-serif;;
     --FONT-TWO: 'Times New Roman', serif;
 }
-
-
-
-
-
-/* || VArIABLES */
-
-
-
-:root {
-
-    /* COLOUR PALETTE:  */
-    --COLOR-ONE: #f07575;
-    --COLOR-TWO: #ecc2c2;
-    --COLOR-THREE: #f5d5d5;
-    --COLOR-FOUR: #eca3a3;
-    --COLOR-FIVE: #f7b3b3;
-    --COLOR-SIX: #833434;
-    --COLOR-SEVEN: #333;
-
-
-    --COLOR-TEXT: #4e2020;
-    --COLOR-TEXT2: #fff;
-
-    .dark-mode {
-        --COLOR-ONE: #5a99e2;
-        --COLOR-TWO: #97cceb;
-        --COLOR-THREE: #a3e8f1;
-        --COLOR-FOUR: #a3cbec;
-        --COLOR-FIVE: #c5ebe2;
-        --COLOR-SIX: #7e7cec;
-        --COLOR-SEVEN: #333333;
-    }
-}
-
 
 
 /* || UTILITY CLASSES */
 
 
 /* ------------------------ */
+
+
+
+/* --- NAVBAR ||| */
+
+
+nav {
+    background-color: var(--COLOR-FOUR);
+    height: 3rem; 
+}
+
+.navlinks {
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+    height: 100%; 
+}
+
+nav a {
+    text-decoration: none;
+}
