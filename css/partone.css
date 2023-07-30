@@ -1,4 +1,10 @@
+
+/* --- PART ONE ||| */
+
 .chapter1p1 {
     background-color: var(--COLOR-THREE);
     font-family: var(--FONT-ONE);
+    padding: 0.3rem 0.82rem; 
 }
+
+

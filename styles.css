@@ -98,6 +98,9 @@ textarea {
 
 /* --- NAVBAR ||| */
 
+.navbar1 h1 {
+    font-family: var(--FONT-H1);
+}
 
 .logo {
     background-color: var(--COLOR-SEVEN);
@@ -117,12 +120,19 @@ nav {
    
 }
 
-.navlinks ul {
+.navlinks {
     text-decoration: none;
     list-style-type: none;
 }
 
-nav a {
+.navbar2 a {
     text-decoration: none;
+    display: inline-block; 
+    height: 100%; 
+}
+
+.navbar2 a:hover {
+    background-color: var(--COLOR-NINE);
+   height: 100%; 
 }
 
