@@ -8,7 +8,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* outline: 1px solid lime !important; */
+    outline: 1px solid lime !important;
 }
 
 img {
@@ -220,10 +220,21 @@ nav {
 /* CONTENTS SECTION */
 
 .section2 {
-    margin-top: 10px;
+    
     text-align: center;
     background-image: url(images/GTown/stephan-louis-f7jloGCFIiA-unsplash.jpg);
+    opacity: 0.74; 
+}
+
+.section2 h1 {
+    padding-top: 10px; 
 }
 
 
 /* REVIEW SECTION */
+
+/* FOOTER SECTION */
+
+.section4 {
+    background-color: #447796;
+}
